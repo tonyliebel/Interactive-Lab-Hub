@@ -1,0 +1,43 @@
+A lab report by Tony Liebe
+Lab 5
+
+My arduino code for the Jack in the Box. The point of this code is for someone to push the button on the front of the box, of which then opens the box with a picture of me!
+
+#include <Servo.h>
+int button1 = 2; //button pin, connect to ground to move servo
+int press1 = 0;
+Servo servo1;
+
+void setup()
+{
+  pinMode(button1, INPUT);
+  servo1.attach(9);
+  digitalWrite(2, HIGH); //enable pullups to make pin high
+}
+
+void loop()
+{
+  press1 = digitalRead(button1);
+  if (press1 == LOW)
+  {
+    servo1.write(180);
+  }
+  else {
+    servo1.write(30);
+  }
+}
+
+
+.stl or .svg files for your Jack — if you use some other technique, include the respective supporting material.
+My stl file can be found here: https://github.com/tonyliebel/Interactive-Lab-Hub/blob/master/tonyprintout.svg
+
+
+At least one photo of your box taken in the MakerLab's Portable Photo Studio (or somewhere else, but of similar quality).
+My photos can be found here!
+https://github.com/tonyliebel/Interactive-Lab-Hub/blob/master/jackintheboxclosed.jpg
+https://github.com/tonyliebel/Interactive-Lab-Hub/blob/master/jackintheboxopen.jpg
+
+A video of your box in action.
+Video can be found here! How fun is that! (I decided to side mount the servo to see if it would work- it did.)
+https://github.com/tonyliebel/Interactive-Lab-Hub/blob/master/JackintheboxVideo.MOV
+
