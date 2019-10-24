@@ -7,3 +7,4 @@ Completed Labs for Hartmut Tony Liebel
 3. [Tony's Lab 3](https://github.com/tonyliebel/IDD-Fa19-Lab3/blob/master/README.md)
 4. [Tony's Lab 4](https://github.com/tonyliebel/IDD-Fa19-Lab4)
 5. [Tony's Lab 5](https://github.com/tonyliebel/Interactive-Lab-Hub/blob/master/Lab5)
+6. [Tony's Lab 6](https://github.com/tonyliebel/Interactive-Lab-Hub/blob/master/Lab6)
